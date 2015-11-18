@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="3"
+        >
+
+        <LinearLayout
+            android:paddingLeft="30dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_1"
+                android:id="@+id/category_btn_1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="10dp"
+                android:gravity="center"
+                android:text="까치집 발견"
+                android:id="@+id/category_title_1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_2"
+                android:id="@+id/category_btn_2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="수목접촉"
+                android:layout_weight="1"
+                android:id="@+id/category_title_2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_3"
+                android:id="@+id/category_btn_3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="전기설비불량"
+                android:layout_weight="1"
+                android:id="@+id/category_title_3"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="3"
+        >
+
+        <LinearLayout
+            android:paddingLeft="30dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_4"
+                android:id="@+id/category_btn_4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="전선높이부족"
+                android:layout_weight="1"
+                android:id="@+id/category_title_4"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_5"
+                android:id="@+id/category_btn_5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="전기선근접작업"
+                android:layout_weight="1"
+                android:id="@+id/category_title_5"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_6"
+                android:id="@+id/category_btn_6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="도로굴착작업"
+                android:layout_weight="1"
+                android:id="@+id/category_title_6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="3"
+        >
+
+        <LinearLayout
+            android:paddingLeft="30dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_7"
+                android:id="@+id/category_btn_7"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="전주 기울어짐"
+                android:layout_weight="1"
+                android:id="@+id/category_title_7"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="17dp"
+            android:paddingRight="17dp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_8"
+                android:id="@+id/category_btn_8"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="화재발생"
+                android:layout_weight="1"
+                android:id="@+id/category_title_8"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="10"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:background="@drawable/category_9"
+                android:id="@+id/category_btn_9"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#696868"
+                android:textSize="11dp"
+                android:gravity="center|top"
+                android:text="기타 신고"
+                android:layout_weight="1"
+                android:id="@+id/category_title_9"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
